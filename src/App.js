@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Bombillo from './ejerciciobombillo/Bombillo';
+import Container from './useeffect1/UseEffect1';
+import Example2 from './useeffect2/UseEffect2';
+import Example from './usestate1/UseState1';
+import Accordion from './usestate2/UseState2';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Example></Example>
+    <Accordion></Accordion>
+    <Container></Container>
+    <Example2></Example2>
+    <Bombillo></Bombillo>
+    </>
   );
 }
 
